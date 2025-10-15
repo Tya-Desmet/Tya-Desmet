@@ -51,7 +51,6 @@
 - JavaScript & React pour le front  
 - PHP & Laravel pour le back
 - Java pour le fun (:
-- 
 ### 📫 Me contacter
 
 <p align="center">
@@ -64,5 +63,5 @@
 ---
 
 <p align="center">
-  🌸 *"Le code est une forme d’art, et chaque bug une opportunité d’apprendre."* 🌸
+  🌸 "Le code est une forme d’art, et chaque bug une opportunité d’apprendre." 🌸
 </p>
