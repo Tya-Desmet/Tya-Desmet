@@ -25,7 +25,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=radical&hide_border=true" height="165"/>
-  <img src="[https://github-readme-streak-stats.herokuapp.com/?user=Tya-Desmet&theme=radical&hide_border=true](https://streak-stats.demolab.com/?user=Tya-Desmet&theme=radical)" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tya-Desmet&theme=radical&hide_border=trueh" height="165"/>
 </p>
 
 <p align="center">
