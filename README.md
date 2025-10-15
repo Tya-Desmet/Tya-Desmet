@@ -24,12 +24,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=radical&hide_border=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tya-Desmet&theme=radical&hide_border=trueh" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=Tya-Desmet&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tya-Desmet&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tya-Desmet&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
 ---
@@ -37,8 +37,9 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tya-Desmet&theme=radical&no-frame=true&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Tya-Desmet&theme=tokyonight&no-frame=true&margin-w=15&column=6" />
 </p>
+
 
 ---
 
