@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+##My langugage: 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+##Me
+
 ![Tya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=radical)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=Tya-Desmet&theme=radical)
