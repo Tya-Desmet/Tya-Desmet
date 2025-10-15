@@ -24,8 +24,11 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" height="165"/>
-  <img src="https://streak-stats.demolab.com?user=Tya-Desmet&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tya-Desmet&theme=radical&hide_border=trueh" height="165"/>
+
+
+
 </p>
 
 <p align="center">
