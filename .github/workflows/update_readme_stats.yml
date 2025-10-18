@@ -41,11 +41,11 @@ jobs:
           git add stats.svg top-langs.svg
           git diff --staged --quiet || git commit -m "Update GitHub stats SVGs"
 
-      # Crée un PR vers main si la branche est protégée ou si push direct impossible
+      # Crée un PR vers main si push direct impossible
       - name: Create pull request with changes (if any)
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}        # <-- ici ton PAT
           commit-message: "Update GitHub stats SVGs"
           title: "Update GitHub stats SVGs"
           body: "Automated update of GitHub stats SVGs."
