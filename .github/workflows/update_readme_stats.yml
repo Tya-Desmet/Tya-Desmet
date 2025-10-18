@@ -23,24 +23,25 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y curl
 
-      - name: Download GitHub Stats SVGs
+      - name: Download GitHub Stats SVGs (Vercel bypass)
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_BYPASS: ${{ secrets.VERCEL_BYPASS }}  # ton secret créé dans GitHub et Vercel
         run: |
-          # Télécharge les SVG en envoyant le token Vercel dans le header
-          curl -sS -H "Authorization: Bearer $VERCEL_TOKEN" \
-            "https://github-readme-stats-o5unhnaay-mystyas-projects.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" -o stats.svg
+          # stats
+          curl -sS \
+            "https://github-readme-stats-o5unhnaay-mystyas-projects.vercel.app/api?username=Tya-Desmet&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&x-vercel-protection-bypass=$VERCEL_BYPASS" -o stats.svg
 
-          curl -sS -H "Authorization: Bearer $VERCEL_TOKEN" \
-            "https://github-readme-stats-o5unhnaay-mystyas-projects.vercel.app/api/top-langs/?username=Tya-Desmet&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" -o top-langs.svg
+          # top-langs
+          curl -sS \
+            "https://github-readme-stats-o5unhnaay-mystyas-projects.vercel.app/api/top-langs/?username=Tya-Desmet&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&x-vercel-protection-bypass=$VERCEL_BYPASS" -o top-langs.svg
 
-          # Vérifie rapidement que ce sont bien des SVG (optionnel mais utile pour debug)
-          if ! head -n 1 stats.svg | grep -iq "<svg"; then
+          # vérifie rapidement que ce sont bien des SVG
+          if ! grep -iq "<svg" stats.svg; then
             echo "ERROR: stats.svg does not look like an SVG. Dumping head for debug:" >&2
             head -n 50 stats.svg >&2
             exit 1
           fi
-          if ! head -n 1 top-langs.svg | grep -iq "<svg"; then
+          if ! grep -iq "<svg" top-langs.svg; then
             echo "ERROR: top-langs.svg does not look like an SVG. Dumping head for debug:" >&2
             head -n 50 top-langs.svg >&2
             exit 1
@@ -54,5 +55,4 @@ jobs:
           git diff --staged --quiet || git commit -m "Update GitHub stats SVGs" || echo "No changes to commit"
 
       - name: Push changes
-        run: |
-          git push
+        run: git push
