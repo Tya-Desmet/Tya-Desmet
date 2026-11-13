@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hey, moi c’est Tya Desmet</h1>
 
 <p align="center">
-💻 Étudiante en développement web & passionnée de Java !   
+💻 Étudiante en Bachelier technologie de l'informatique  !   
 🌈 Développeuse front-end en devenir, explorant peu à peu le full-stack  
 </p>
 
