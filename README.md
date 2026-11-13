@@ -52,9 +52,11 @@
 🎨 J’aime aussi tout ce qui touche au **design web** et à l’**expérience utilisateur**.  
 🌍 Je vise une carrière de **développeuse full stack** — et pourquoi pas, **créatrice d'experience complète web (UI-UX + DEV)**.  
 📚 Actuellement, je perfectionne :
-- JavaScript & React pour le front  
-- PHP & Laravel pour le back
-- Java pour le fun (:
+- JavaScript & React pour le front / Node pour le back
+- Java spingBoot / kotlin 
+- C / c# et C++
+- PHP & Laravel
+- 
 ### 📫 Me contacter
 
 <p align="center">
